@@ -26,7 +26,7 @@ export function TaskList() {
       isComplete: 0,
     }
    
-    setTasks([json])
+    setTasks([...tasks, json])
     setNewTaskTitle('')
   }
 
